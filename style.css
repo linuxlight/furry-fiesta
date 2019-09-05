@@ -15,19 +15,21 @@ ol {
   text-decoration: none;
 }
 
-.list_item {
+ol .list_item {
   text-decoration: none;
   color: brown;
+  font-size:25px;
 }
 
-#POSITION {
+ol #POSITION {
   color: orange;
+  font-size: 35px;
 }
 
-#TITLE {
+h1 #TITLE {
   text-decoration: none;
   color: black;
-  font-size: 45px;
+  font-size: 60px;
 }
 
 #grid {
@@ -35,14 +37,16 @@ ol {
   grid-template-columns: 220px 1fr;
 }
 
-#content {
+#grid #content {
   padding: 25px;
   padding-top: 0;
 }
-@media(max-width:800px){
+
+@media(max-width:800px) {
   #grid {
     display: block;
   }
+
   ol {
     border-right: none;
     border-bottom: 2px solid green;
