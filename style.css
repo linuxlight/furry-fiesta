@@ -4,7 +4,7 @@ h1 {
   padding: 25px;
 }
 
-ol {
+.menu_list{
   border-right: 2px solid green;
   margin: 0;
   padding: 25px;
@@ -15,13 +15,13 @@ ol {
   text-decoration: none;
 }
 
-ol .list_item {
+ul .list_item {
   text-decoration: none;
   color: brown;
   font-size:25px;
 }
 
-ol #POSITION {
+ul #POSITION {
   color: orange;
   font-size: 35px;
 }
